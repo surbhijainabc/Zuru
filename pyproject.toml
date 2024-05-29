@@ -1,0 +1,16 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyls"
+version = "0.1.0"
+description = "A simple ls command implemented in Python"
+authors = [
+    { name="Surbhi Badalia", email="surbhi.badalia@gmail.com" }
+]
+dependencies = []
+
+[project.scripts]
+pyls = "pyls.pyls:main"
